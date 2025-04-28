@@ -1,0 +1,8 @@
+⚠️ 날짜 포맷 불일치 또는 누락. 기본값(이번 달 1일)로 설정. (time data '2025-04-25T13:35:37.987686' does not match format '%Y%m%d%H%M%S')
+🌐 접속 완료
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.banner-wrap
+✅ 입찰공고목록 클릭
+✅ 브라우저 종료
