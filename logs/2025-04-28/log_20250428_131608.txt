@@ -1,0 +1,12 @@
+🔍 팝업 제거 시도
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.w2window
+✅ 팝업 제거됨: div.banner-wrap
+
+🔍 키워드 검색: 클라우드
+
+🔍 키워드 검색: Cloud
+📁 저장 완료: ./result/2025-04-28/입찰공고검색_20250428_131608.xlsx
+✅ 브라우저 종료 완료
