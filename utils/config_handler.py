@@ -1,15 +1,16 @@
-# utils/config_handler.py
-import json
 import os
+import json
+from datetime import datetime
 
-CONFIG_PATH = "./config.json"
+def load_config(path):
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    else:
+        return {
+            "last_run_time": (datetime.now().replace(day=1)).strftime("%Y-%m-%dT%H:%M:%S")
+        }
 
-def load_config():
-    if not os.path.exists(CONFIG_PATH):
-        return {}
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def save_config(config):
-    with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+def save_config(config, path):
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(config, f, indent=4, ensure_ascii=False)
